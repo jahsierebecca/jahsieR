@@ -1,0 +1,60 @@
+$orange: #f9a11b;
+$twhite: rgba(255, 255, 255, .8);
+
+body {
+	background-color: $orange;
+	padding-top: 70px;
+}
+
+.navbar {
+	border: 0 0 1px 0;
+	border-radius: 0;
+	border-color: white;
+}
+
+.navbar-default  {
+	.navbar-nav>li>a, .navbar-brand {
+	color: white;
+}
+}
+
+.navbar-default {
+	background-color: $orange;
+	.navbar-toggle {
+		border: 1px white;
+		border-radius: 0;
+		.icon-bar {
+			background-color: white;
+		}
+	}
+}
+
+#intro {
+	height: 90vh;
+}
+
+#second {
+	height: 160vh;
+	background-color: white;
+}
+
+.row {
+	position: fixed;
+	padding: 50px;
+	border-width: 55px;
+	border-color: green;
+	.star {
+		border: 1px red;
+	}
+}
+
+
+.col-sm-4 {
+	background-color: $twhite;
+	.column {
+	border: 10px red;
+	}
+	padding: 25px;
+}	
+
+	/*		border-color: rgba(255, 255, 255, .3); */
