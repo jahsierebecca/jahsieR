@@ -1,4 +1,4 @@
-$orange: #f9a11b;
+$orange: #62949B;
 $twhite: rgba(255, 255, 255, .8);
 
 body {
@@ -6,6 +6,7 @@ body {
 	padding-top: 70px;
 }
 
+/***** NAV *****/
 .navbar {
 	border: 0 0 1px 0;
 	border-radius: 0;
@@ -29,32 +30,85 @@ body {
 	}
 }
 
+/***** NAV *****/
+
+.orange {}
+
+
+
 #intro {
-	height: 90vh;
+	height: 100vh;
+	background-color: $orange;
+		z-index: -1;
 }
 
 #second {
-	height: 160vh;
+	height: 100vh;
 	background-color: white;
+	z-index: 2;
+
 }
 
+
 .row {
-	position: fixed;
 	padding: 50px;
-	border-width: 55px;
-	border-color: green;
+	border: 1px white;
 	.star {
 		border: 1px red;
 	}
 }
 
 
-.col-sm-4 {
+.col-sm-3 {
+/*	position: fixed; */
 	background-color: $twhite;
-	.column {
-	border: 10px red;
-	}
-	padding: 25px;
+    color: $orange;
+    padding: 20px;
 }	
+
+.col-sm-8 {
+/*	position: fixed; */
+	color: $twhite;
+	border-width: 10px;
+	border-style: solid;
+	border-color: $twhite;
+	a {
+		color: $twhite;
+		text-decoration: underline;
+	}
+}
+
+.white {
+	background-color: white;
+	.col-sm-8 {
+		background-color: $orange;
+		h1 {
+			color: $twhite;
+		}
+	}
+	.col-sm-3 {
+		color: $twhite;
+		background-color: $orange;
+	}
+}
+
+a {
+	color: $orange;
+}
+.white h1 {
+	color: $orange;
+}	
+
+#row1 {
+	position: fixed;
+}
+
+#row2 {
+	z-index: 3;
+	margin-top: 50px;
+	background-color: white;
+}
+
+
 
 	/*		border-color: rgba(255, 255, 255, .3); */
