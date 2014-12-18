@@ -81,7 +81,8 @@ a {
   background-color: white; }
 
 .trio {
-  margin-top: 150px; }
+  height: 225px;
+  margin-top: 50px; }
 
 @media screen and (max-width: 768px) {
   .name {
